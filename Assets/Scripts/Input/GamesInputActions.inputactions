@@ -1,0 +1,65 @@
+{
+    "name": "GamesInputActions",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "1276220b-7925-4472-9327-088ad5eef096",
+            "actions": [
+                {
+                    "name": "Rotate",
+                    "type": "Value",
+                    "id": "9d0f1137-d283-48ea-9627-30a3461077d6",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "MainThrust",
+                    "type": "Button",
+                    "id": "f992789a-76aa-4cd0-8a8e-eaf988ca6577",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "a455e30a-8490-457f-a379-4f4cc778c47f",
+                    "path": "<Gamepad>/dpad",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Rotate",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c9e3b105-f6b6-4737-84bc-f96e41c7296c",
+                    "path": "<Gamepad>/buttonSouth",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MainThrust",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "1a912cd6-3ab1-451a-b605-88a3cf3da2b9",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MainThrust",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
